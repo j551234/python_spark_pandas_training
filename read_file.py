@@ -19,7 +19,7 @@ def get_category_file_name(folder_path):
     return category_file_list
 
 
-def get_video_list(folder_path):
+def get_video_file_list(folder_path):
     video_file_list = []
     folder_content = os.listdir(folder_path)
 

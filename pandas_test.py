@@ -4,7 +4,7 @@ import pandas as pd
 def get_category(file_name):
     df = pd.read_json(file_name)
     data = pd.json_normalize(df['items'])
-    return data['snippet.title']
+    return data['id','snippet.title']
 
 
 def get_rap_info(file_name):
