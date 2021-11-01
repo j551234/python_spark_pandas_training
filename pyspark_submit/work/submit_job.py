@@ -1,11 +1,9 @@
 import os
-from pyspark import SparkContext, SparkConf
+
+import pyspark.sql.functions as f
 from pyspark.sql import SparkSession
-from pyspark.sql import HiveContext
-from pyspark.sql import Row
 from pyspark.sql.functions import *
 from pyspark.sql.types import IntegerType
-import pyspark.sql.functions as f
 
 os.environ["HADOOP_CONF_DIR"] = "/opt/hadoop/etc/hadoop"
 
