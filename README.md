@@ -24,8 +24,9 @@ https://www.kaggle.com/datasnaek/youtube-new
 * 連線需給予jdbc的driver的位置，若是連線hive則要給將hive-site.xml放在資料夾下
 
 
-## submit folde
+## submit folder
 * 裡面為使用spark shell submit
 * 的使用式跟執行script
+* 要使用hive，需把jdbc drive 放在 spark 
 
  
