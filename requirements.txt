@@ -127,7 +127,7 @@ pyparsing=2.4.7=pyhd3eb1b0_0
 pyqt=5.9.2=py39h2531618_6
 pyrsistent=0.18.0=py39h7f8727e_0
 pyspark=3.1.2=pyhd3eb1b0_0
-python=3.6.8=h0371630_0
+python=3.9.7=h12debd9_1
 python-dateutil=2.8.2=pyhd3eb1b0_0
 pytz=2021.1=pyhd3eb1b0_0
 pyzmq=22.2.1=py39h295c915_1
