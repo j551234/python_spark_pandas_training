@@ -108,3 +108,5 @@ var_df = var_df.groupby('category_name') \
 display(var_df.head(10))
 
 spark.stop()
+
+

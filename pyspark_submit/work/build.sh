@@ -4,6 +4,7 @@ export HADOOP_USER_NAME=hdfs
 build_venv_python3(){
     DIR="$( cd "$( dirname "$0" )" && pwd )"
     python3 -m venv venv
+    . ${DIR}/venv/bin/activate
     pip3 install -r ${DIR}/requirements.txt
     python3 -m compileall .
     deactivate
