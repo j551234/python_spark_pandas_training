@@ -15,10 +15,8 @@ https://www.kaggle.com/datasnaek/youtube-new
 
 ## usage 
 *  pip install -r requirements.txt
-*  
 *  在run on yarn 需給予hadoop的連線資訊，給予HADOOP_CONF_DIR的位置os.environ["HADOOP_CONF_DIR"] = "/opt/hadoop/etc/hadoop"
 *  在run on spark 則需指定 spark的位置，"spark://master:7077"
-*
 ## connect folder
 * 此為連線mysql跟hive 範例
 * 連線需給予jdbc的driver的位置，若是連線hive則要給將hive-site.xml放在資料夾下
